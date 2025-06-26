@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   let ws: any = null;
   const connectWebDocket = async () => {
     async function connectWebSocket() {
-      ws = new WebSocket("wss://api.toolzmarket.com");
+      ws = new WebSocket("wss://api.lol.com");
       // ws = new WebSocket("ws://localhost:4560");
 
       await FingerprintJS.load()

@@ -111,7 +111,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
             alt="Logo"
           />
           <p className="py-4 text-[22px] text-white">
-            Toolz<span className="font-bold"> Market</span>
+            <span className="font-bold"> App</span>
           </p>
         </a>
       </div>

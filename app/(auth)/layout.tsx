@@ -6,7 +6,7 @@ import PublicRoutes from "@/components/PublicRoutes";
 
 export const metadata: Metadata = {
   title: "App",
-  description: "Access 60+ Tools and Services For Lowest Price!",
+  description: "Description",
 };
 
 const AuthLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {

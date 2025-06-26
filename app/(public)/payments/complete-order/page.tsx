@@ -65,7 +65,7 @@ const completePayment = () => {
                     <p className='text-center'>
                         Just a second, I'll be right with you.
                     </p>
-                    <div className="loaderToolzMarketDark text-black"></div>
+                    <div className="loaderAppDark text-black"></div>
                 </>
                 :
                 <>

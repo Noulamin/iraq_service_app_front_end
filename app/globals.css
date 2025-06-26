@@ -360,7 +360,7 @@ input[type="search"]::-webkit-search-cancel-button {
   @apply bg-gray rounded-md dark:bg-graydark dark:text-white
 }
 
-.loaderToolzMarket {
+.loaderApp {
   width: 22px;
   padding: 4px;
   margin-top: -3px;
@@ -383,7 +383,7 @@ input[type="search"]::-webkit-search-cancel-button {
   }
 }
 
-.loaderToolzMarketDark {
+.loaderAppDark {
   width: 22px;
   padding: 4px;
   margin-top: -3px;

@@ -64,7 +64,7 @@ const Dashboard: FunctionComponent = () => {
     };
 
     await axios
-      .post("https://api.toolzmarket.com/api/user/get-session", data, {
+      .post("https://api.tget.com/api/user/get-session", data, {
 
         // .post("http://localhost:4560/api/user/get-session", data, {
         headers: {
@@ -114,14 +114,14 @@ const Dashboard: FunctionComponent = () => {
 
   const { open: openNewUpdate } = useModal(
     getDangerActionConfirmationModal({
-      msg: "A new version of toolzmarket has released with its new features and fixes, Download it from toolzmarket.com and install it, dont worry, YOU WONT HAVE TO DOWNLOAD IT ONCE AGAIN !!!",
+      msg: "A new version of App has released with its new features and fixes, Download it from App.com and install it, dont worry, YOU WONT HAVE TO DOWNLOAD IT ONCE AGAIN !!!",
       title: "New Update",
     })
   );
 
   const { open: openNewVersion } = useModal(
     getDangerActionConfirmationModal({
-      msg: "An updated version of Toolzmarket Desktop is available. Do you want to restart Toolzmarket to apply the update?",
+      msg: "An updated version of App Desktop is available. Do you want to restart App to apply the update?",
       title: "New Update Available",
     })
   );

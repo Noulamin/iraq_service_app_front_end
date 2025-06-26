@@ -7,7 +7,7 @@ const LoadingPage: FunctionComponent<LoadingPageProps> = ({ }) => {
     <div className="flex gap-4 flex-col justify-center items-center w-full h-[100vh] bg-[#1C2434]">
       <img className="max-w-[60px]" src={Logo.src} alt="logo" />
       <p className="text-white text-[20px] font-bold">App</p>
-      <div className="loaderToolzMarket"></div>
+      <div className="loaderApp"></div>
     </div>
   )
 };

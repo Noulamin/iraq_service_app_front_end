@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "App",
-  description: "Access 60+ Tools and Services For Lowest Price!",
+  description: "Description",
   // other metadata
 };
 
